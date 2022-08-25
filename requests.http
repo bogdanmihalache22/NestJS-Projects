@@ -1,0 +1,15 @@
+### List all Messages
+GET http://localhost:3000/messages
+
+
+### Create a new Message
+POST http://localhost:3000/messages
+content-type: application/json
+
+{
+    "content": "Hello, message after adding DI"
+}
+
+
+### Get a particular message
+GET http://localhost:3000/messages/272
